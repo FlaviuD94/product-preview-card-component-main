@@ -24,16 +24,17 @@
     <main class="container">
       <div class="card">
         <div class="img-container">
-          <img
-            id="img-mobile"
-            src="images/image-product-mobile.jpg"
-            alt="photo of parfume"
-          />
-          <img
-            id="img-desktop"
-            src="images/image-product-desktop.jpg"
-            alt="photo of parfume"
-          />
+          <picture>
+            <source
+              media="(max-width:961px)"
+              srcset="./images/image-product-mobile.jpg"
+            />
+            <img
+              id="img"
+              src="./images/image-product-desktop.jpg"
+              alt="Gabrielle Parfum"
+            />
+          </picture>
         </div>
         <div class="card-content">
           <p class="product-category">PERFUME</p>

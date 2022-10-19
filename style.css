@@ -59,12 +59,8 @@ p {
   border-radius: 10px;
 }
 
-#img-mobile {
+#img {
   width: 100%;
-}
-
-#img-desktop {
-  display: none;
 }
 
 .card-content {
@@ -131,7 +127,7 @@ p {
   width: 0.9rem;
   margin-right: 12px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 961px) {
   .card {
     flex-direction: row;
     width: 100%;
@@ -149,11 +145,7 @@ p {
     padding: 30px 30px;
   }
 
-  #img-mobile {
-    display: none;
-  }
-
-  #img-desktop {
+  #img {
     display: block;
     width: 100%;
     height: 100%;
